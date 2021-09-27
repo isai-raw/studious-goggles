@@ -1,0 +1,20 @@
+{
+  "name": "studious-goggles",
+  "version": "1.0.0",
+  "description": "Another repository to practice my knowledge in JavaScript",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isai-raw/studious-goggles.git"
+  },
+  "keywords": ["JavaScript"],
+  "author": "Isai Orellana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isai-raw/studious-goggles/issues"
+  },
+  "homepage": "https://github.com/isai-raw/studious-goggles#readme"
+}
