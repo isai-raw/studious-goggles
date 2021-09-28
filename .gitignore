@@ -3,3 +3,5 @@ node_modules/
 *.pug
 .pug
 pug
+
+.vscode/
