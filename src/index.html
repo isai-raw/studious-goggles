@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="./assets/icons/facha.ico">
+    <link rel="stylesheet" href="./css/login.css"/>
     <title>Login | FachaGame</title>
   </head>
   <body>
     <h1>Bienvenide al FachaGame</h1>
-    <div class="login_container"><img class="login_img" src="./assets/" alt="una foto fachera">
+    <div class="login_container"><img class="login_img" src="./assets/img/guardia.jpg" alt="una foto fachera">
       <form action="">
-        <input type="text" required placeholder="Usuario">
-        <input type="password" required placeholder="Contraseña">
+        <input type="text" required placeholder="Usuario" title="Su usuario mamagueve" oninvalid="this.setCustomValidity('pone el usuario wirro paila')" oninput="setCustomValidity('')">
+        <input type="password" required placeholder="Contraseña" title="contraseña secreta del club de fachas" oninvalid="this.setCustomValidity('y la contraseña pelotudo?')">
         <button class="login--button">Iniciar Sesion</button>
       </form>
       <button class="login--button-nose">No se si estoy registrado.</button>

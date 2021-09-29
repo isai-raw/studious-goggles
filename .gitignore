@@ -1,7 +1,20 @@
 node_modules/
 
+src/pug/
+pug/
 *.pug
 .pug
 pug
 
 .vscode/
+
+*.scss
+.scss
+scss
+*.sass
+sass/
+src/css/sass/
+sass
+.sass
+.map
+map
