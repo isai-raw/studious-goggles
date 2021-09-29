@@ -16,5 +16,5 @@ sass/
 src/css/sass/
 sass
 .sass
-.map
+.css.map
 map
