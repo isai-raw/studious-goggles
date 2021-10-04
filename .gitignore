@@ -17,4 +17,6 @@ src/css/sass/
 sass
 .sass
 .css.map
+login.css.map
+src/css/login.css.map
 map

@@ -12,6 +12,10 @@ body {
   color: aqua;
 }
 
+.hide {
+  display: none;
+}
+
 h1 {
   margin: 0 auto;
   text-align: center;
@@ -24,7 +28,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
-  width: 80%;
+  max-width: 500px;
 }
 .login_container img {
   width: 100px;
@@ -33,11 +37,16 @@ h1 {
 .login_container input {
   display: block;
   margin: 10px auto;
+  border-radius: 3px;
 }
 .login_container button {
   background-color: aquamarine;
   display: block;
   margin: 10px auto;
+  border-radius: 3px;
+}
+.login_container a {
+  color: green;
 }
 
 /*# sourceMappingURL=login.css.map */
