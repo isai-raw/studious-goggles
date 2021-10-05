@@ -9,27 +9,27 @@
   </head>
   <body>
     <h1>Bienvenide al FachaGame</h1>
-    <div class="login_container login_container--login"><img class="login_img" src="./assets/img/guardia.jpg" alt="una foto fachera">
+    <div class="login_container login_container--login" id="login"><img class="login_img" src="./assets/img/guardia.jpg" alt="una foto fachera">
       <form action="./html/home.html" name="login">
         <input type="text" required placeholder="Usuario" title="Su usuario mamagueve" oninvalid="this.setCustomValidity('pone el usuario wirro paila')" oninput="setCustomValidity('')" name="user">
         <input type="password" required placeholder="Contraseña" title="contraseña secreta del club de fachas" oninvalid="this.setCustomValidity('y la contraseña pelotudo?')" oninput="setCustomValidity('')" name="password">
         <button class="login--button" onclick="loginValidation()" type="submit">Iniciar Sesion</button>
       </form>
-      <button class="login--button-nose">No se si estoy registrado.</button>
+      <button class="login--button-nose" onclick="nose()">No se si estoy registrado.</button>
     </div>
-    <div class="login_container login_container--idk hide">
-      <form action="">
+    <div class="login_container--idk hide" id="idkForm">
+      <form action="" name="idk">
         <input type="text" name="name" required placeholder="Primer nombre">
-        <button class="login--button">Continuar</button>
+        <button class="login--button" onclick="nameValidation()">Continuar</button>
       </form>
     </div>
-    <div class="login_container login_container--rugre hide">
+    <div class="login_container--rugre hide" id="rugre">
       <p>es ud gre asada?</p>
-      <button class="r-u-gre_si">Si, lindo.</button>
-      <button class="r-u-gre_no">No chamaque p*nd*je</button>
+      <button class="r-u-gre_si" onclick="imGre()">Si, lindo.</button>
+      <button class="r-u-gre_no" onclick="imNotGre()">No chamaque p*nd*je</button>
     </div>
-    <div class="login_container login_container--hi_gre hide">
-      <p>Segun el programador de este juego ud tiene un usuario especial por ser la dueña de la facha y del programador xd. haga click en este <a href="">enlace</a> para recibir su contraseña.</p>
+    <div class="login_container--hi_gre hide" id="higre">
+      <p>Segun el programador de este juego ud tiene un usuario especial por ser la dueña de la facha y del programador xd. haga click en este <a href="https://api.whatsapp.com/send?phone=50495497605&amp;app=facebook&amp;entry_point=page_cta">enlace</a> para recibir su contraseña.</p>
       <button class="login--button-back">Volver al inicio</button>
     </div>
     <script src="./js/index.js"></script>
